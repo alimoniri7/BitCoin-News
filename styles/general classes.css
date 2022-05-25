@@ -12,6 +12,14 @@
     text-decoration: none;
     text-indent: 0;
     box-sizing: border-box;
+    transition: all 0.1s;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
 }
 
 .xlarge-font-size {
@@ -97,4 +105,17 @@ h2 {
 
 .picture-content ul li {
     font-size: 14px;
+}
+
+
+/* grid system /-----------------------------------  */
+
+.grid-system-3-3 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.grid-column-2cell {
+    grid-column: 1/span2;
 }

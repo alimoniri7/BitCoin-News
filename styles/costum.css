@@ -1,0 +1,35 @@
+/* nav bar /------------------------- */
+
+header {
+    width: fit-content;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    padding: 30px 0;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li {
+    font-weight: 700;
+    font-size: 14px;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+
+#burger {
+    display: none;
+}
+
+
+/* header content /----------------------------  */

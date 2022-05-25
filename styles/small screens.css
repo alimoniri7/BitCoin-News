@@ -1,0 +1,36 @@
+@media (max-width: 769px) {
+    header {
+        width: 100%;
+        max-width: 576px;
+        padding: 0 10px;
+    }
+    nav {
+        width: 100%;
+        max-width: 576px;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul {
+        display: none;
+    }
+    #burger {
+        display: block;
+    }
+    .open-menu {
+        display: flex !important;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+        justify-content: center;
+        gap: 0;
+    }
+    .open-menu li {
+        border-bottom: 2px solid #3333331c;
+        padding: 33px 0;
+        width: 100%;
+    }
+    .open-menu li:last-child {
+        border: none;
+    }
+}

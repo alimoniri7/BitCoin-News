@@ -1,0 +1,11 @@
+@media (max-width:993px) {
+    nav {
+        width: 768px;
+    }
+    nav ul {
+        gap: 15px;
+    }
+    nav img {
+        width: 105px;
+    }
+}
