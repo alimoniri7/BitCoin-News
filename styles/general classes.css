@@ -19,7 +19,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
+}
+
+main {
+    width: 1200px;
+}
+
+b {
+    font-weight: 700;
 }
 
 .xlarge-font-size {
@@ -36,6 +44,10 @@ body {
 
 .text-yellow {
     color: #F9B500;
+}
+
+.text-white {
+    color: #fff
 }
 
 a {
@@ -59,6 +71,7 @@ h2 {
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .title::after {
@@ -86,20 +99,25 @@ h2 {
 /* picture contents /---------------------------- */
 
 .picture-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     padding: 0 20px 20px 20px;
     width: fit-content;
+    background-color: transparent;
 }
 
-.picture-content h3 {
+.picture-content h2 {
     font-weight: 800;
+    color: #fff !important;
 }
 
 .picture-content ul {
     display: flex;
-    gap: 30px;
+    gap: 18px;
     flex-wrap: wrap;
 }
 
@@ -123,4 +141,63 @@ h2 {
 
 .grid-row-2cell {
     grid-row: 1/span 2;
+}
+
+.grid-system-3-1 {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(1, auto);
+    gap: 10px;
+}
+
+
+/* background pictures /----------------------------- */
+
+.bg1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/banner-1-600x450.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg2 {
+    background: rgb(146, 146, 146);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/slider-3-450x600.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/slider-4-450x600.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/slider-5-450x600.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/slider-6-450x600.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* banners /--------------------- */
+
+.banner {
+    position: relative;
 }

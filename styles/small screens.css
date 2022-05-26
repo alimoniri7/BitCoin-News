@@ -33,4 +33,21 @@
     .open-menu li:last-child {
         border: none;
     }
+    .flex-column {
+        display: flex !important;
+        flex-direction: column;
+        gap: 10px;
+        height: 1860px !important;
+    }
+    .flex-column div {
+        height: 300px !important;
+        width: 100%;
+        position: relative;
+        justify-content: flex-end;
+    }
+    main {
+        width: 100%;
+        max-width: 576px;
+        padding: 0 10px;
+    }
 }
