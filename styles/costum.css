@@ -110,3 +110,58 @@ form button:hover {
     background-color: #000;
     color: #fff;
 }
+
+
+/* footer /---------------------------------------*/
+
+footer {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9)), url(../images/map.png), #191919;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+footer * {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+#footer-container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+#footer-container section:first-child {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#footer-container section:first-child div {
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-container section:first-child div * {
+    line-height: 28px;
+}
+
+#footer-container section:nth-child(2) {
+    display: flex;
+    gap: 20px;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    opacity: 0.2;
+}

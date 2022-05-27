@@ -45,7 +45,8 @@
         position: relative;
         justify-content: flex-end;
     }
-    main {
+    main,
+    #footer-container {
         width: 97%;
         max-width: 576px;
         padding: 0 10px;
@@ -53,5 +54,19 @@
     #mining-news {
         display: flex !important;
         flex-direction: column;
+    }
+    footer {
+        padding: 40px 20px;
+    }
+    footer section:first-child {
+        gap: 60px !important;
+    }
+    #footer-container section:first-child div {
+        flex: 1 1 100%;
+    }
+    #footer-container section:nth-child(2),
+    #social-networks {
+        gap: 0 !important;
+        justify-content: space-between;
     }
 }

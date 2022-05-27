@@ -1,4 +1,6 @@
 @media (max-width:993px) {
+    main,
+    #footer-container,
     nav {
         width: 768px;
     }
@@ -7,9 +9,6 @@
     }
     nav img {
         width: 105px;
-    }
-    main {
-        width: 768px;
     }
     #container {
         grid-template-columns: auto;

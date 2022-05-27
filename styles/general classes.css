@@ -42,8 +42,16 @@ b {
     font-size: 18px !important;
 }
 
+.normal-font-size {
+    font-size: 16px;
+}
+
 .small-font-size {
     font-size: 14px !important;
+}
+
+.xsmall-font-size {
+    font-size: 12px !important;
 }
 
 .text-yellow {
@@ -251,4 +259,22 @@ h3 {
 
 .banner {
     position: relative;
+}
+
+
+/* footer underline boxes */
+
+.underline-box {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.underline-box::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.226);
 }

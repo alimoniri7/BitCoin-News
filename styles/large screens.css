@@ -1,8 +1,7 @@
 @media (max-width:1201px) {
-    nav {
-        width: 992px;
-    }
-    main {
+    nav,
+    main,
+    #footer-container {
         width: 992px;
     }
 }
