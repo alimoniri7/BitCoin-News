@@ -11,4 +11,8 @@
     main {
         width: 768px;
     }
+    #container {
+        grid-template-columns: auto;
+        gap: 0px !important;
+    }
 }
